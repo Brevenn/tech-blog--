@@ -31,3 +31,68 @@ h6 {
   color: var(--dark);
   line-height: 1.25;
 }
+
+.link-color {
+    color: var(--tertiary);
+    padding: 10px;
+    margin: 10px
+}
+
+main {
+    margin: 20px auto;
+    width: 94%;
+}
+
+.wrapper {
+    width: 100%;
+    min-height: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+p {
+    font-size: 1.2rem;
+}
+
+.btn {
+    font-size: 1.3rem;
+    text-decoration: none;
+    padding: 6px 5px;
+    width: 100%;
+    display: block;
+    margin: 5px 0;
+    border-radius: var(--border-radius);
+    color: rgb(130, 129, 129);
+    border: none;
+    outline: none;
+    background-color: var(--light-dark);
+    transform: translate(-1px, -1px);
+}
+
+.btn:hover {
+    color: var(--primary);
+    background-color: var(--tertiary);
+    transform: translate(0, 0);
+    box-shadow: 2px 2px var(--dark);
+}
+
+.btn-inline {
+    display: inline;
+}
+
+.btn-back {
+    border-radius: var(--border-radius);
+    color: var(--primary);
+    border: none;
+    outline: none;
+    background-color: var(--light-dark);
+    box-shadow: 3px 3px var(--secondary);
+    transform: translate(-1px, -1px);
+    display: inline-block;
+    width: auto;
+    margin-top: 20px;
+    padding: 15px;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
