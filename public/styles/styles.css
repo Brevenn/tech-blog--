@@ -1,0 +1,33 @@
+:root {
+  --primary: #ccdad1;
+  --secondary: #dce9d5;
+  --tertiary: #375353;
+  --light-dark: #327899;
+  --dark: #181631;
+  --border-radius: 0.3rem;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--primary);
+  margin: 0;
+  padding: 0;
+  font-family: "IBM Plex Sans", sans-serif;
+  color: var(--dark);
+  line-height: 1.5;
+  font-size: 24px;
+}
+
+h1,
+h2,
+h3,
+h5,
+h6 {
+  font-weight: 700;
+  margin: 0;
+  color: var(--dark);
+  line-height: 1.25;
+}
