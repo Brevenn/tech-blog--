@@ -19,3 +19,7 @@ const postData = [
     user_id: 3,
   },
 ];
+
+const seedPosts = () => Post.bulkCreate(postData);
+
+module.exports = seedPosts;
